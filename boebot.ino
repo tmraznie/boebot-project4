@@ -165,7 +165,7 @@ void StartDriving()
   
   else {
   servoRight.writeMicroseconds(1690);  // Robot goes forward
-  servoLeft.writeMicroseconds(1300);   // 
+  servoLeft.writeMicroseconds(1300);   // hey
   Serial.write("I'm driving!\n");
   }
 }
